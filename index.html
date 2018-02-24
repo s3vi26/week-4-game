@@ -1,33 +1,112 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    
+    <title>Crystal Collectorrrrrrrrrr</title>
 </head>
 <body>
-    <div class="container" id="header">
-        <div class="row">
-            <header>
-                <h1>Crystal Collector!</h1>
-            </header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel-panel-default">
+                <div class="panel-heading">
+                    <h1>Crystals Collector!</h1>
+                </div>
+                <div class="panel-body">
+                    <h3>This is the panel body.</h3> 
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container" id="about-game">
-        <div class="row">
-            <p> section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.
-            This section is going to have all the game rules.</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel-panel-default">
+                <div class="panel-body">
+                    <p>All instructions will go here</p> 
+                </div>
+            </div>
         </div>
     </div>
-    
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel-panel-default">
+                <div class="panel-body">
+                    <strong>Random Number:</strong><span id="random-number"></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="panel-panel-default">
+                    <div class="panel-body">
+                        <span id="display-message"></span>
+                    </div>
+            </div>
+            <div class="panel-panel-default">
+                <div class="panel-body">
+                    <strong>Wins:</strong><span id="win-counter"></span>  
+                </div>
+            </div>
+            <div class="panel-panel-default">
+                <div class="panel-body">
+                    <strong>Losses:</strong><span id="loss-counter"></span>
+                </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel-panel-default">
+                <div class="panel-body">
+                    <img class="gems" id="gem-1" src="assets/images/white_jewel.png" alt="">
+                    <img class="gems" id="gem-2" src="assets/images/blue_jewel.png" alt="">
+                    <img class="gems" id="gem-3" src="assets/images/violet_jewel.png" alt="">
+                    <img class="gems" id="gem-4" src="assets/images/red_jewel.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel-panel-default">
+                <div class="panel-body">
+                    <strong>Your total score is:</strong> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            </div>
+            <div class=:panel-panel-default>
+                <div class="panel-body">
+                    <span id="total-score"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/javascript/game.js"></script>
 </body>
-</html>
